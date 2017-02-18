@@ -1,0 +1,27 @@
+[
+	{
+		"id": 0,
+		"slot_id": 0,
+		"amount": 1
+	},
+	{
+		"id": 1,
+		"slot_id": 1,
+		"amount": 3
+	},
+	{
+		"id": 2,
+		"slot_id": 2,
+		"amount": 1
+	},
+	{
+		"id": 3,
+		"slot_id": 3,
+		"amount": 1
+	},
+	{
+		"id": 3,
+		"slot_id": 3,
+		"amount": 1
+	}
+]

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3e905796c2e2bf24d8c54b558a67e19e
+timeCreated: 1486403321
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: KenPixel Future Square
+  fontNames:
+  - KenPixel Future Square
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

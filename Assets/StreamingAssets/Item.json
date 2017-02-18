@@ -1,0 +1,74 @@
+[
+	{
+		"id": 0,
+		"title": "Steel Gloves",
+		"value": 6,
+		"stats": {
+			"attack": 1,
+			"defense": 4,
+			"power": 0,
+			"agility": 0,
+			"vitality": 2,
+			"inteligence": 0,
+			"constitution": 0
+		},
+		"description": "Gloves made from steel. Yea.",
+		"stackable": false,
+		"rarity": 2,
+		"slug": "steel_gloves"
+	},
+	{
+		"id": 1,
+		"title": "The Great Stick",
+		"value": 543,
+		"stats": {
+			"attack": 56,
+			"defense": 2,
+			"power": 0,
+			"agility": 0,
+			"vitality": 54,
+			"inteligence": 0,
+			"constitution": 0
+		},
+		"description": "It's a stick that's pretty great.",
+		"stackable": true,
+		"rarity": 6,
+		"slug": "the_great_stick"
+	},
+	{
+		"id": 2,
+		"title": "Leather Belt",
+		"value": 20,
+		"stats": {
+			"attack": 1,
+			"defense": 2,
+			"power": 0,
+			"agility": 0,
+			"vitality": 2,
+			"inteligence": 0,
+			"constitution": 0			
+		},
+		"description": "It's a belt made from leather. Provides litle defence.",
+		"stackable": false,
+		"rarity": 1,
+		"slug": "leather_belt"
+	},
+	{
+		"id": 3,
+		"title": "Inteligence Ring",
+		"value": 500,
+		"stats": {
+			"attack": 0,
+			"defense": 0,
+			"power": 0,
+			"agility": 0,
+			"vitality": 0,
+			"inteligence": 5,
+			"constitution": 0
+		},
+		"description": "A ring made of an unknown stone. It makes you feel smarter.",
+		"stackable": false,
+		"rarity": 1,
+		"slug": "inteligence_ring"
+	}
+]

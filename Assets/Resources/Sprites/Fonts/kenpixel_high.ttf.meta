@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 57ca948a364b7ad4698b940db2e0526a
+timeCreated: 1486403321
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: KenPixel High
+  fontNames:
+  - KenPixel High
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
