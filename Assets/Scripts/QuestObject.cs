@@ -14,7 +14,7 @@ public class QuestObject : MonoBehaviour
 
     void Start()
     {
-        canvas = GameObject.Find("Canvas");
+        canvas = FindObjectOfType<UIManager>().gameObject;
     }
 
     void Update()

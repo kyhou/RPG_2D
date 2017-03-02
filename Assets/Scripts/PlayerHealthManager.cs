@@ -11,7 +11,7 @@ public class PlayerHealthManager : MonoBehaviour
 
     void Start()
     {
-        playerStats = GameObject.Find("Canvas").GetComponent<PlayerStats>();
+        playerStats = FindObjectOfType<PlayerStats>().GetComponent<PlayerStats>();
 
         maxHP = playerStats.currentHp;
         SetMaxHP();

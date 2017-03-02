@@ -1,0 +1,18 @@
+[
+	{
+		"tipe": "player",
+		"name": "Kyhou Dalk",
+		"race": "Human",
+		"level": 2,
+		"exp": 20,
+		"class": "Assassin",
+		"stats": {
+			"power": 10,
+			"agility": 10,
+			"vitality": 10,
+			"inteligence": 10,
+			"constitution": 10
+		},
+		"sp": 10
+	}
+]

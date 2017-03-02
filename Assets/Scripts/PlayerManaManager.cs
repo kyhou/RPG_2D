@@ -11,7 +11,7 @@ public class PlayerManaManager : MonoBehaviour
 
     void Start()
     {
-        playerStats = GameObject.Find("Canvas").GetComponent<PlayerStats>();
+        playerStats = FindObjectOfType<PlayerStats>().GetComponent<PlayerStats>();
 
         maxMP = playerStats.currentMp;
         SetMaxMP();

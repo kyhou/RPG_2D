@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class InventorySlot : MonoBehaviour, IDropHandler
+public class InventorySlot : MonoBehaviour
 {
     public int id;
 
@@ -15,7 +15,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler
         inv = GameObject.Find("Inventory").GetComponent<Inventory>();
     }
 
-    public void OnDrop(PointerEventData eventData)
+    /*public void OnDrop(PointerEventData eventData)
     {
         ItemData droppedItem = eventData.pointerDrag.GetComponent<ItemData>();
         if(inv.items[id].ID == -1)
@@ -38,7 +38,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler
             inv.items[droppedItem.slot] = item.GetComponent<ItemData>().item;
             inv.items[id] = droppedItem.item;
         }
-    }
+    }*/
 
     void Update()
     {

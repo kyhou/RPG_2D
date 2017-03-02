@@ -12,7 +12,7 @@ public class InventoryDatabase : MonoBehaviour
     void Start()
     {
         itemData = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Inventory.json"));
-        ContructItemDatabase();
+        ContructDatabase();
     }
 
     public int[] FetchAllItemsIDs()
@@ -35,7 +35,7 @@ public class InventoryDatabase : MonoBehaviour
     }
 
 
-    void ContructItemDatabase()
+    void ContructDatabase()
     {
         for (int i = 0; i < itemData.Count; i++)
         {

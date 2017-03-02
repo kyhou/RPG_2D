@@ -31,6 +31,7 @@ public class Inventory : MonoBehaviour
             slots.Add(Instantiate(inventorySlot));
             slots[i].GetComponent<InventorySlot>().id = i;
             slots[i].transform.SetParent(slotPanel.transform);
+            slots[i].name = "Slot";
         }
 
 
@@ -79,7 +80,7 @@ public class Inventory : MonoBehaviour
                     itemObj.transform.SetParent(slots[i].transform);
                     itemObj.transform.position = Vector2.zero;
                     itemObj.GetComponent<Image>().sprite = itemToAdd.Sprite;
-                    itemObj.name = itemToAdd.Title;
+                    itemObj.name = itemToAdd.Title + " Item";
                     break;
                 }
             }

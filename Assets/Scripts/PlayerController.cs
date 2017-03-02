@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
     private Rigidbody2D playerRig;
     private SFXManager sfxManager;
-    private GameObject inventoryPanel;
+    private GameObject inventoryPanel, characterPanel;
     private bool playerMoving, attacking;
     private static bool playerExists;
     private float attackTimeCounter, moveSpeedTemp;
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour {
 	void Start ()
     {
         inventoryPanel = GameObject.Find("Inventory Panel");
+        characterPanel = GameObject.Find("Character Panel");
         animator = GetComponent<Animator>();
         playerRig = GetComponent<Rigidbody2D>();
         sfxManager = FindObjectOfType<SFXManager>();
@@ -128,6 +129,15 @@ public class PlayerController : MonoBehaviour {
                     inventoryPanel.SetActive(true);
                 else
                     inventoryPanel.SetActive(false);
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                if (!characterPanel.activeSelf)
+                    characterPanel.SetActive(true);
+                else
+                    characterPanel.SetActive(false);
 
             }
 
